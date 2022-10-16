@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/XHtml.xhtml to edit this template
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>barSetor</title>
+        <h3 align="Middle"> MASUKKAN NOMINAL </h3>
+        <h3 align="Middle">( PECAHAN RP. 500000 )</h3>
+    </head>
+    <body>
+       <h:form>
+            <br></br>
+            <br></br>
+            <h:inputText id="uang" size="10" maxlength="10" value="#{userActionBean.userInput}" />
+            <h:commandButton id="Setor-button" value="Setor" action="setorUang" />
+        </h:form>
+    </body>
+</html>

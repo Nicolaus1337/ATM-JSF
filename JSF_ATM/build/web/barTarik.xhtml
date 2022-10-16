@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>barTarik</title>
+        <h3 align="Middle"> MASUKKAN NOMINAL </h3>
+        <h3 align="Middle">( PECAHAN RP. 500000 )</h3>
+    </head>
+    <body>
+        <h:form>
+            <br></br>
+            <br></br>
+            <h:inputText id="uang" size="10" maxlength="10" value="#{userActionBean.userInput}" />
+            <h:commandButton id="Tarik-button" value="Tarik" action="tarikUang" />
+        </h:form>
+    </body>
+</html>
